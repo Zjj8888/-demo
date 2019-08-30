@@ -1,0 +1,26 @@
+.apropos-5{
+    background-color:rgb(216, 210, 210);
+    height :15rem;
+}
+.contact{
+    text-align: center;
+    line-height :5rem;
+    /* margin-top :.625rem; */
+    color:#281823;
+    font-family: "Oswald",sans-serif;
+    font-weight:500;
+}
+.email{
+    text-align: center;
+    line-height :3rem;
+    color:#281823;
+    font-family: "Oswald",sans-serif;
+    font-weight:400;
+}
+.git{
+    text-align: center;
+    line-height :3rem;
+    color:#281823;
+    font-family: "Oswald",sans-serif;
+    font-weight:400;
+}

@@ -1,0 +1,458 @@
+.illustration_france {
+    position: absolute;
+    width: 36.875rem;
+    height: 17.875rem;
+    top: 21.1rem;
+    left: 27%;
+}
+/* 栅栏动画 */
+.illustration_france #ville {
+    position: absolute;
+    bottom: 0;
+    opacity:0;
+}
+.ville{
+    transform-origin: 0 100%;
+    animation: ville_ 0.5s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes ville_ {
+    from {
+        opacity:0;
+        transform:rotateX(-90deg);
+    }
+
+    to {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.ville_close{
+    transform-origin: 0 100%;
+    animation: ville_cc 0.5s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes ville_cc {
+    from {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+
+    to {
+       opacity:0;
+       transform:rotateX(-90deg);
+    }
+}
+
+.illustration_france #nuage1 {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+
+/* 大云动画 */
+.nuage1{
+    animation: nuage1_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes nuage1_ {
+    0% {
+        opacity:0;
+        transform:scale(2);
+    }
+    50% {
+        opacity:1;
+        transform:scale(0.7);
+    }
+
+    100% {
+       opacity:1;
+       transform:scale(1);
+    }
+}
+.nuage1_close{
+    animation: nuage1_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes nuage1_cc {
+    0% {
+        opacity:1;
+        transform:scale(1);
+    }
+    50% {
+        opacity:1;
+        transform:scale(1.3);
+    }
+    100% {
+       opacity:0;
+       transform:scale(0);
+    }
+}
+.illustration_france #nuage2 {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+/* 二云动画 */
+.nuage2{
+    opacity:0;
+    animation: nuage2_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+@keyframes nuage2_ {
+    0% {
+        opacity:0;
+        transform:scale(2);
+    }
+    50% {
+        opacity:1;
+        transform:scale(0.7);
+    }
+    100% {
+       opacity:1;
+       transform:scale(1);
+    }
+}
+.nuage2_close{
+    animation: nuage2_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+}
+@keyframes nuage2_cc {
+    0% {
+        opacity:1;
+        transform:scale(1);
+    }
+    50% {
+        opacity:1;
+        transform:scale(1.3);
+    }
+    100% {
+       opacity:0;
+       transform:scale(0);
+    }
+}
+.illustration_france #nuage3 {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    opacity:0;
+}
+/* 小云动画 */
+.nuage3{
+    opacity:0;
+    animation: nuage3_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+@keyframes nuage3_ {
+    0% {
+        opacity:0;
+        transform:scale(2);
+    }
+    50% {
+        opacity:1;
+        transform:scale(0.7);
+    }
+    100% {
+       opacity:1;
+       transform:scale(1);
+    }
+}
+.nuage3_close{
+    animation: nuage3_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+@keyframes nuage3_cc {
+    0% {
+        opacity:1;
+        transform:scale(1);
+    }
+    50% {
+        opacity:1;
+        transform:scale(1.3);
+    }
+    100% {
+       opacity:0;
+       transform:scale(0);
+    }
+}
+
+.illustration_france #reverbere2 {
+    position: absolute;
+    bottom: 0;
+    left: 13%;
+}
+/* 左一塔动画 */
+.reverbere2{
+    opacity:0;
+    transform-origin: 0 100%;
+    animation: reverbere2_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+@keyframes reverbere2_ {
+    from {
+        opacity:0;
+        transform:rotateX(90deg);
+    }
+    to {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.reverbere2_close{
+    transform-origin: 0 100%;
+    animation: reverbere2_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.8s;
+}
+@keyframes reverbere2_cc {
+    0% {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    50%{
+        opacity:1;
+        transform:rotateX(-20deg);
+    }
+    100% {
+       opacity:0;
+       transform:rotateX(90deg);
+    }
+}
+
+.illustration_france #reverbere1 {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+}
+.reverbere1{
+    opacity:0;
+    transform-origin: 0 100%;
+    animation: reverbere1_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+@keyframes reverbere1_ {
+    from {
+        opacity:0;
+        transform:rotateX(90deg);
+    }
+    to {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.reverbere1_close{
+    transform-origin: 0 100%;
+    animation: reverbere1_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.6s;
+}
+@keyframes reverbere1_cc {
+    from {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    to {
+       opacity:0;
+       transform:rotateX(90deg);
+    }
+}
+
+.illustration_france #france-tourEiffel {
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+/* 中间铁塔动画 */
+.tour{
+    opacity:0;
+    transform-origin: 0 100%;
+    animation: tour_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.4s;
+}
+@keyframes tour_ {
+    0% {
+        opacity:0;
+        transform:rotateX(90deg);
+    }
+    100% {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.tour_close{
+    transform-origin: 0 100%;
+    animation: tour_cc 0.8s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.3s;
+}
+@keyframes tour_cc {
+    0% {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    50%{
+        opacity:1;
+        transform:rotateX(-20deg);
+    }
+    100% {
+       opacity:0;
+       transform:rotateX(90deg);
+    }
+}
+
+.illustration_france #reverbere3 {
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+}
+.reverbere3{
+    opacity:0;
+    transform-origin: 0 100%;
+    animation: reverbere3_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+@keyframes reverbere3_ {
+    from {
+        opacity:0;
+        transform:rotateX(90deg);
+    }
+    to {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.reverbere3_close{
+    transform-origin: 0 100%;
+    animation: reverbere3_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.7s;
+}
+@keyframes reverbere3_cc {
+    0% {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    50%{
+        opacity:1;
+        transform:rotateX(-20deg);
+    }
+    100% {
+       opacity:0;
+       transform:rotateX(90deg);
+    }
+}
+
+.illustration_france #reverbere4 {
+    position: absolute;
+    bottom: 0;
+    right: 13%;
+}
+.reverbere4{
+    opacity:0;
+    transform-origin: 0 100%;
+    animation: reverbere4_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+}
+@keyframes reverbere4_ {
+    from {
+        opacity:0;
+        transform:rotateX(90deg);
+    }
+    to {
+       opacity:1;
+       transform:rotateX(0deg);
+    }
+}
+.reverbere4_close{
+    transform-origin: 0 100%;
+    animation: reverbere4_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.9s;
+}
+@keyframes reverbere4_cc {
+    0% {
+        opacity:1;
+        transform:rotateX(0deg);
+    }
+    50%{
+        opacity:1;
+        transform:rotateX(-20deg);
+    }
+    100% {
+       opacity:0;
+       transform:rotateX(90deg);
+    }
+}
+
+/* 文字France的动画 */
+#text_france{
+    display:inline-block;
+    width :4.413125rem;
+    height :1.5625rem;
+    color:#DDDCDD;
+    font-family: "Oswald",sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    position:absolute;
+    top:60%;
+    left:25%;
+}
+.text_france{
+    opacity:0;
+    animation: text_ 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+}
+@keyframes text_ {
+    from {
+        opacity:0;
+        transform:translateX(0rem);
+    }
+    to {
+       opacity:1;
+       transform:translateX(2.625rem);
+    }
+}
+.text_france_close{
+    animation: text_france_cc 0.6s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes text_france_cc {
+    from {
+        opacity:1;
+        transform:translateX(2.625rem);
+    }
+    to {
+       opacity:0;
+       transform:translateX(0rem);
+    }
+}
